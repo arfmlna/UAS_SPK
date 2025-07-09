@@ -28,7 +28,7 @@
                 echo "<tr class='border-b'><td>{$row['nama']}</td><td>{$row['nama_mk']}</td><td>{$row['nilai_angka']}</td><td>$mutu</td><td>$ket</td></tr>";
             }
             echo "</tbody></table></div>";
-            echo "<a href='index.php?page=export&id=" . urlencode($nama) . "' class='block mt-4 text-center bg-green-600 text-white py-2 rounded hover:bg-green-700'>
+            echo "<a href='index.php?page=export&nama=" . urlencode($nama) . "' class='block mt-4 text-center bg-green-600 text-white py-2 rounded hover:bg-green-700'>
                 Export PDF
             </a>";
         } else {
